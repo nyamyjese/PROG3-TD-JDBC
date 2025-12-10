@@ -29,11 +29,10 @@ public class Product {
         return category;
     }
 
-    public Product (int id , String name , Instant creationDatetime , Category category) {
+    public Product (int id , String name , Instant creationDatetime ) {
         this.id = id;
         this.name = name;
         this.creationDatetime = creationDatetime;
-        this.category = category;
     }
 
     @Override
